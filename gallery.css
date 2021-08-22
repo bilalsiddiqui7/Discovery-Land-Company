@@ -1,14 +1,13 @@
 .containerg{
-    max-width: 100%;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background: #f2f2f2;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    flex-direction: row;
 }
 .galleryg{
-    width: 400px;
+    width: 500px;
     background-color: black;
 }
 .galleryg img{
