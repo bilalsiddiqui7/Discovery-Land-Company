@@ -1,18 +1,24 @@
+html{
+    font-size: 100%;
+}
+*{
+    overflow-x: hidden;
+}
 .containers img{
-    height: 740px;
+    height: 74.0rem;
 }
 .blackbox{
     background-color:#161f1e;
     height: 70%;
     width: 50%;
     position: relative;
-    left: 700px;
-    bottom: 830px;
+    left: 70.0rem;
+    bottom: 83.0px;
 }
 .carousel {
-    width:300px;
-    height:400px;
-    transform: translate(1100px,-1250px);
+    width:30.0rem;
+    height:40.0rem;
+    transform: translate(110.0rem,-125.0rem);
 }
 .section2{
     float: left;
@@ -46,7 +52,7 @@ ul li a{
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    padding: 5px 20px;
+    padding: .5rem 2.0rem;
 }
 .main{
     /* max-width: 1200px; */
@@ -60,7 +66,7 @@ ul li a{
 }    
 .logo{
     float: left;
-    width: 150px;
+    width: 15.0rem;
     height: auto;
 }
 .title{
@@ -70,8 +76,9 @@ ul li a{
     transform: translate(-50%,-50%);
 }
 .title h1{
+    /* border: 5px solid red; */
     color:#fff;
-    font-size: 70px;
+    font-size: 7.0rem;
     font-family: gotham;
     font-weight: 100;
     line-height: 1.3;
@@ -93,54 +100,54 @@ ul li a{
 
     width: 100%;
     height: 60%;
+    margin-top: 4rem;
     margin-left: 20%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
 }
 .i_row ul li a{
-    margin: 70px;
+    margin: 7.0rem;
     text-decoration: none;
 }
 .i_footer p{
-    margin-left: 70px;
+    margin-left: 7.0rem;
     color: white;
 }
 .i_sticker{
-    height: 50px;
-    width: 50px;
+    height: 5.0rem;
+    width: 5.0rem;
     position: relative;
-    left:80px;
-    top: -250px;
+    left:8.0rem;
+    top: -20.0rem;
 }
 .i_ch_footercol li{
     list-style-type: none;
-    margin: 25px 0;
+    margin: 2.5rem 0;
 }
 .i_ch_footercol li{
     list-style-type: none;
-    margin: 25px 0;
+    margin: 2.5rem 0;
 }
 /* MEDIA QUERY IS LISTED BELOW  */
-@media (max-width:990px){
-    .logo{
-        margin-top: -100px;
+@media (max-width:998px){
+    html{
+        font-size: 55%;
     }
-    .navItem{
-        margin-right: 500px;
+}
+@media (max-width:768px){
+    html{
+        font-size: 45%;
     }
-    .navItem li a{
-        color: black;
+}
+@media (max-width:375px){
+    html{
+        font-size: 45%;
     }
-    #myvideo{
-        width:100%;
-    }
-    .image{
-        height: 600px;
-        width: 60%;
-    }
-    .con{
+}
+@media (max-device-width : 480px) {
+    .title h1{
         border: 5px solid red;
     }
-
 }
+    
