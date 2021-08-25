@@ -1,24 +1,80 @@
-html{
-    font-size: 100%;
+.navigation h3{
+    font-size: .8rem;
+    margin-left: 2rem;
+    margin-top: -2rem;
 }
-*{
-    overflow-x: hidden;
+.navigation{
+    color: hsla(0,0%,100%,.5);
+    fill: white;
+    height: 1rem;
+    width: 1rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+.country{
+    
+    margin-top: 6rem;
+    margin-left: 5rem;
+    color: hsla(0,0%,100%,.5);
+    /* font-size: 1rem; */
+}
+.sun h3{
+    color: hsla(0,0%,100%,.5);
+}
+.sun3{
+    fill: white;
+    height: 2rem;
+    width: 2rem;
+    margin-top: -2rem;
+    margin-left: 15rem;
+}
+.sun2{
+    fill: white;
+    height: 2rem;
+    width: 2rem;
+    margin-top: -2rem;
+    margin-left: 10rem;
+}
+.sun1{
+    fill: white;
+    height: 2rem;
+    width: 2rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+.leftarrow{
+    height: 2rem;
+    width: 2rem;
+    background-color: transparent;
+    fill: white;
+    border: none;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+.rightarrow{
+    height: 2rem;
+    width: 2rem;
+    background-color: transparent;
+    fill: white;
+    border: none;
+    margin-top: 2rem;
+    margin-left: 2rem;
 }
 .containers img{
-    height: 74.0rem;
+    height: 47.1rem;
 }
 .blackbox{
     background-color:#161f1e;
     height: 70%;
     width: 50%;
     position: relative;
-    left: 70.0rem;
-    bottom: 83.0px;
+    left: 45rem;
+    bottom: 70rem;
 }
 .carousel {
-    width:30.0rem;
-    height:40.0rem;
-    transform: translate(110.0rem,-125.0rem);
+    width: 15rem;
+    height: 60rem;
+    transform: translate(70.0rem,-105.0rem);
 }
 .section2{
     float: left;
@@ -92,6 +148,7 @@ ul li a{
     background-color: #161f1e;
     height: 60vh;
     width: 100vw;
+    margin-top: -3.5rem;
 }
 .i_ch_footercol h4{
     color: #fff;
@@ -129,6 +186,13 @@ ul li a{
     list-style-type: none;
     margin: 2.5rem 0;
 }
+
+html{
+    font-size: 100%;
+}
+/* *{
+    overflow-x: hidden;
+} */
 /* MEDIA QUERY IS LISTED BELOW  */
 @media (max-width:998px){
     html{
