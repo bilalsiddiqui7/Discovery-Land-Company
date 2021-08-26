@@ -1,4 +1,32 @@
-
+.landup h1{
+    /* border: 5px solid red; */
+    font-size: calc(30.66667px + 1.06667vw);
+    font-family: gt-sectra;
+    font-weight: 200;
+    line-height: 1.3;
+    transform: translate(150px, 5px);
+    margin-right: 500px;
+}
+.landup p{
+    /* border: 5px solid greenyellow; */
+    color: #777;
+    line-height: 2;
+    font-size: .9rem;
+    margin-right: 500px;
+    transform: translate(150px, 50px);
+}
+.landup button{
+    /* border: 5px solid blue; */
+    transform: translate(150px, 50px);
+    border: none;
+}
+.button2{
+    margin: 50px;
+}
+.carou{
+    margin-top: 1150px;
+    margin-left: -650px;
+}
 .sun1 h3{
     text-align: center;
     margin-top: .7rem;
@@ -182,8 +210,8 @@ ul li a{
     width: 100%;
     height: 60%;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
 }
 .i_row ul li a{
     margin: 7.0rem;
@@ -194,6 +222,7 @@ ul li a{
     color: white;
 }
 .i_sticker{
+    margin-top: 100px;
     height: 5.0rem;
     width: 5.0rem;
     position: relative;

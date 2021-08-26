@@ -19,8 +19,9 @@
     color: white;
 }
 .headerclass{
+    /* border: 5px solid red; */
     height: 30vh;
-    width: 100vw;
+    width: 100%;
     overflow: hidden;
     object-fit: cover;
     background-color: black;
@@ -62,8 +63,8 @@ ul li a{
 /* CSS for footer is given below */
 .footer{
     background-color: #161f1e;
-    height: 60vh;
-    width: 100vw;
+    height: 60%;
+    width: 100%;
 }
 .ch_footercol h4{
     color: #fff;
