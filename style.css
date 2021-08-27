@@ -1,3 +1,7 @@
+.lands{
+    /* border: 5px solid black; */
+    height: 218vh;
+}
 .landup h1{
     /* border: 5px solid red; */
     font-size: calc(30.66667px + 1.06667vw);
@@ -24,7 +28,7 @@
     margin: 50px;
 }
 .carou{
-    margin-top: 1150px;
+    margin-top: 1150px; 
     margin-left: -650px;
 }
 .sun1 h3{
@@ -110,7 +114,7 @@
 .blackbox{
     /* border: 10px solid olive; */
     background-color:#161f1e;
-    height: 70%;
+    height: 40%;
     width: 50%;
     position: relative;
     left: 45rem;
@@ -200,8 +204,8 @@ ul li a{
 .i_footer{
     /* border: 10px solid blue; */
     background-color: #161f1e;
-    height: 60%;
-    width: 100%;
+    height: 60vh;
+    width: 100vw;
 }
 .i_ch_footercol h4{
     color: #fff;
