@@ -264,9 +264,114 @@ html{
         font-size: 45%;
     }
 }
-@media (max-device-width : 480px) {
+@media (max-device-width : 375px) {
     .title h1{
-        /* border: 5px solid red; */
+        font-size: 200px;
     }
+    .navitem{
+        font-size: 30px;
+    }
+    .logo{
+        height: 500px;
+        width: 500px;
+        transform: translate(100px,-200px);
+    }
+    .con h1{
+        font-size: 100px;
+    }
+    .con{
+        font-size: 40px;
+    }
+    .image{
+        height: 800px;
+        width: 800px;
+    }
+    .img3{
+        /* The height and width of the image are not changigg */
+    }
+    .landup h1{
+        font-size: 100px;
+    }
+    .landup p{
+        font-size: 50px;
+    }
+    .landup{
+        font-size: 40px;
+    }
+    .blackbox{
+        height: 950px;
+        width: 950px;
+        transform: translate(-400px,620px);
+    }
+    .carousel-inner{
+        /* The height and width are not changigg */
+        transform: translate(300px,300px);
+        transform: scale(2.5);
+    }
+    .section2:hover{
+        border: 5px solid red;
+        transform: translateY(200px);
+        transform: scale(2.5);
+    }
+    .i_ch_footercol h4{
+        font-size: 35px;
+    }
+    .i_ch_footercol{
+        font-size: 30px;
+    }
+    .ch_footercol{
+        font-size: 30px;
+    }
+    .i_sticker{
+        height: 130px;
+        width: 130px;
+    }
+    .i_footer p{
+        font-size: 30px;
+        transform: translateX(180px);
+    }
+    .arrowbutton{
+        transform: translateX(500px);
+    }
+    .leftarrow{
+        height: 120px;
+        width: 120px;
+    }
+    .rightarrow{
+        height: 120px;
+        width: 120px;
+        transform: translateX(50px);
+    }
+    .sun{
+        /* transform: translateX(500px); */
+    }
+    .sun1{
+        height: 80px;
+        width: 80px;
+    }
+    .sun2{
+        height: 80px;
+        width: 80px;
+    }
+    .sun3{
+        height: 80px;
+        width: 80px;
+    }
+    .country{
+        transform: translateX(200px);
+    }
+    .country h3{
+        font-size: 80px;
+    }
+    .country h1{
+        font-size: 80px;
+    }
+    .navigation{
+        transform: translateX(200px);
+    }
+    .navigation h3{
+        font-size: 40px;
+    }
+
 }
     
