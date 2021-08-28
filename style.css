@@ -205,7 +205,7 @@ ul li a{
     /* border: 10px solid blue; */
     background-color: #161f1e;
     height: 60vh;
-    width: 100vw;
+    width: 100%;
 }
 .i_ch_footercol h4{
     color: #fff;
@@ -311,7 +311,8 @@ html{
     .section2:hover{
         border: 5px solid red;
         transform: translateY(200px);
-        transform: scale(2.5);
+        /* transform: scale(2); */
+        transform: scale(1);
     }
     .i_ch_footercol h4{
         font-size: 35px;
